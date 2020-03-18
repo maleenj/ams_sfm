@@ -1,4 +1,4 @@
-# Chapter 2: Explore Structure from Motion with the SfM Module
+## Structure from Motion with the SfM Module
 Structure from Motion (SfM) is the process of recovering both the positions of cameras looking at the scene, as well as the sparse geometry of the scene. 
 The motion between the cameras imposes geometric constraints that can help us recover the structure of objects, hence the process is called Structure from Motion. 
 Since OpenCV v3.0+ a contributed ("contrib") module called sfm was added, that assists in performing end-to-end SfM processing from multiple images. 
@@ -65,8 +65,3 @@ $ ./ch2_sfm --viz=true --mvs=out.mvs ../crazyhorse/
 $ <openMVS dir>/build/bin/DensifyPointCloud -i out.mvs
 $ <openMVS dir>/build/bin/Viewer -i out_dense.mvs
 ```
-
-## Author
-Roy Shilkrot <br/>
-roy.shil@gmail.com <br/>
-http://www.morethantechnical.com
