@@ -1,0 +1,6 @@
+/home/maleen/git/sfm/build/CMakeFiles/rebuild_cache.dir
+/home/maleen/git/sfm/build/CMakeFiles/ch2_sfm.dir
+/home/maleen/git/sfm/build/CMakeFiles/edit_cache.dir
+/home/maleen/git/sfm/build/spdlog/CMakeFiles/edit_cache.dir
+/home/maleen/git/sfm/build/spdlog/CMakeFiles/rebuild_cache.dir
+/home/maleen/git/sfm/build/spdlog/CMakeFiles/spdlog.dir
