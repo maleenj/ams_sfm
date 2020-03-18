@@ -3,8 +3,8 @@
 #include <string>
 #include <numeric>
 #include <stdio.h>
-#include "spdlog/spdlog.h"
-#include "spdlog/sinks/basic_file_sink.h"
+#include "include/spdlog/spdlog.h"
+#include "include/spdlog/sinks/basic_file_sink.h"
 
 #define CERES_FOUND true
 

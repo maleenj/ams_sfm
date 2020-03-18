@@ -5,7 +5,12 @@ set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_BUILD_TYPE debug)
 
-add_subdirectory(spdlog)       
+#message(${CMAKE_SOURCE_DIR})
+
+#set(SPDLOG_DIR ${CMAKE_SOURCE_DIR})
+include_directories(
+${CMAKE_SOURCE_DIR}/include)
+
 
 find_package(Ceres QUIET)
 
@@ -29,5 +34,5 @@ target_link_libraries(ch2_sfm
         ${OpenCV_LIBRARIES}
         ${Boost_LIBRARIES}
 #       ${OpenMVS_LIBRARIES}
-        spdlog::spdlog_header_only
+        #spdlog::spdlog_header_only
 )
